@@ -23,7 +23,7 @@ Mofa Zone 展示的是我对于这种分区的一种可行的设计思路，其�
 
 ##Demo
 
-[戳这里](http://0q0.github.io/mofa-notification)
+[戳这里](http://0q0.github.io/mofa-zone)
 
 ##Browser support
 
