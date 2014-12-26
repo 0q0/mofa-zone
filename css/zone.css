@@ -52,6 +52,21 @@ a {
 .zone {
     margin: 20px auto;
     width: 761px;
+    position: relative;
+}
+
+.zone-header {
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    left: -37px;
+    color: #9E9E9E;
+}
+
+.zone-header:hover {
+    color: #747474;
+    transition: all 0.3s;
 }
 
 .zone-left {
@@ -164,11 +179,11 @@ a {
 
 .video-info .brief span {
     display: inline-block;
-float: right;
-height: 16px;
-line-height: 16px;
-margin-right: 9px;
-font-size: 12px;
+    float: right;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 9px;
+    font-size: 12px;
 }
 
 /*视频的详细介绍*/
@@ -404,4 +419,19 @@ li.last-rank-item {
     line-height: 50px;
     color: #888;
     border-radius: 8px;
+}
+
+/*底部的 GitHub 链接*/
+
+.footer {
+    text-align: center;
+}
+
+.github {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.github:hover {
+    text-decoration: underline;
 }
